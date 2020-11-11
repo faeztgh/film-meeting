@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/film-meeting/static/css/main.1a1c7f4a.chunk.css",
-    "main.js": "/film-meeting/static/js/main.68c8ba09.chunk.js",
-    "main.js.map": "/film-meeting/static/js/main.68c8ba09.chunk.js.map",
+    "main.js": "/film-meeting/static/js/main.0b37327b.chunk.js",
+    "main.js.map": "/film-meeting/static/js/main.0b37327b.chunk.js.map",
     "runtime-main.js": "/film-meeting/static/js/runtime-main.1a8ebf73.js",
     "runtime-main.js.map": "/film-meeting/static/js/runtime-main.1a8ebf73.js.map",
     "static/js/2.219bfedf.chunk.js": "/film-meeting/static/js/2.219bfedf.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.1a8ebf73.js",
     "static/js/2.219bfedf.chunk.js",
     "static/css/main.1a1c7f4a.chunk.css",
-    "static/js/main.68c8ba09.chunk.js"
+    "static/js/main.0b37327b.chunk.js"
   ]
 }
