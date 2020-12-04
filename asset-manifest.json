@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/film-meeting/static/css/main.6affed66.chunk.css",
-    "main.js": "/film-meeting/static/js/main.f0abc96b.chunk.js",
-    "main.js.map": "/film-meeting/static/js/main.f0abc96b.chunk.js.map",
+    "main.js": "/film-meeting/static/js/main.baa85b7b.chunk.js",
+    "main.js.map": "/film-meeting/static/js/main.baa85b7b.chunk.js.map",
     "runtime-main.js": "/film-meeting/static/js/runtime-main.2f8eed76.js",
     "runtime-main.js.map": "/film-meeting/static/js/runtime-main.2f8eed76.js.map",
     "static/js/2.f7573152.chunk.js": "/film-meeting/static/js/2.f7573152.chunk.js",
@@ -13,12 +13,12 @@
     "static/css/main.6affed66.chunk.css.map": "/film-meeting/static/css/main.6affed66.chunk.css.map",
     "static/js/2.f7573152.chunk.js.LICENSE.txt": "/film-meeting/static/js/2.f7573152.chunk.js.LICENSE.txt",
     "static/media/1.eb448156.gif": "/film-meeting/static/media/1.eb448156.gif",
-    "static/media/tenet.0269703f.jpg": "/film-meeting/static/media/tenet.0269703f.jpg"
+    "static/media/tenet.c9ce92c3.jpg": "/film-meeting/static/media/tenet.c9ce92c3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2f8eed76.js",
     "static/js/2.f7573152.chunk.js",
     "static/css/main.6affed66.chunk.css",
-    "static/js/main.f0abc96b.chunk.js"
+    "static/js/main.baa85b7b.chunk.js"
   ]
 }
