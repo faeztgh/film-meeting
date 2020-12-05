@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/film-meeting/static/css/main.69255778.chunk.css",
-    "main.js": "/film-meeting/static/js/main.05a46e3e.chunk.js",
-    "main.js.map": "/film-meeting/static/js/main.05a46e3e.chunk.js.map",
-    "runtime-main.js": "/film-meeting/static/js/runtime-main.2f8eed76.js",
-    "runtime-main.js.map": "/film-meeting/static/js/runtime-main.2f8eed76.js.map",
-    "static/js/2.f7573152.chunk.js": "/film-meeting/static/js/2.f7573152.chunk.js",
-    "static/js/2.f7573152.chunk.js.map": "/film-meeting/static/js/2.f7573152.chunk.js.map",
-    "static/js/3.4e3842b6.chunk.js": "/film-meeting/static/js/3.4e3842b6.chunk.js",
-    "static/js/3.4e3842b6.chunk.js.map": "/film-meeting/static/js/3.4e3842b6.chunk.js.map",
+    "main.css": "/film-meeting/static/css/main.f0fe6df9.chunk.css",
+    "main.js": "/film-meeting/static/js/main.961a58af.chunk.js",
+    "main.js.map": "/film-meeting/static/js/main.961a58af.chunk.js.map",
+    "runtime-main.js": "/film-meeting/static/js/runtime-main.461eed3c.js",
+    "runtime-main.js.map": "/film-meeting/static/js/runtime-main.461eed3c.js.map",
+    "static/js/2.c25c4d90.chunk.js": "/film-meeting/static/js/2.c25c4d90.chunk.js",
+    "static/js/2.c25c4d90.chunk.js.map": "/film-meeting/static/js/2.c25c4d90.chunk.js.map",
+    "static/js/3.c989c30f.chunk.js": "/film-meeting/static/js/3.c989c30f.chunk.js",
+    "static/js/3.c989c30f.chunk.js.map": "/film-meeting/static/js/3.c989c30f.chunk.js.map",
     "index.html": "/film-meeting/index.html",
-    "static/css/main.69255778.chunk.css.map": "/film-meeting/static/css/main.69255778.chunk.css.map",
-    "static/js/2.f7573152.chunk.js.LICENSE.txt": "/film-meeting/static/js/2.f7573152.chunk.js.LICENSE.txt",
+    "static/css/main.f0fe6df9.chunk.css.map": "/film-meeting/static/css/main.f0fe6df9.chunk.css.map",
+    "static/js/2.c25c4d90.chunk.js.LICENSE.txt": "/film-meeting/static/js/2.c25c4d90.chunk.js.LICENSE.txt",
     "static/media/1.eb448156.gif": "/film-meeting/static/media/1.eb448156.gif",
     "static/media/tenet.318b0e4f.jpg": "/film-meeting/static/media/tenet.318b0e4f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f8eed76.js",
-    "static/js/2.f7573152.chunk.js",
-    "static/css/main.69255778.chunk.css",
-    "static/js/main.05a46e3e.chunk.js"
+    "static/js/runtime-main.461eed3c.js",
+    "static/js/2.c25c4d90.chunk.js",
+    "static/css/main.f0fe6df9.chunk.css",
+    "static/js/main.961a58af.chunk.js"
   ]
 }
