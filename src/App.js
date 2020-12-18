@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import "./App.css";
+import Home from "./Components/pages/Home/Home";
+import Preloader from "./Components/preloader";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [loading, setLoading] = useState(true);
+    const [movieName, setMovieName] = useState("silence");
+    const [seriesName, setSeriesName] = useState("Love Death + Robots");
+    setTimeout(() => {
+        setLoading(false);
+    }, 4000);
+
+    return (
+        <>
+            {loading ? (
+                <Preloader open={loading} />
+            ) : (
+                <Home
+                    movieName={movieName}
+                    setMovieName={setMovieName}
+                    seriesName={seriesName}
+                />
+            )}
+        </>
+    );
 }
 
 export default App;

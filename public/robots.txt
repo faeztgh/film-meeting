@@ -1,3 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: https://faeztgh.github.io/film-meeting/robots.txt
+Disallow: https://faeztgh.github.io/film-meeting/Data.Data.js
+Disallow: https://faeztgh.github.io/film-meeting/static

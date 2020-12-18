@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+:root {
+    --text-color-neon: rgb(235, 69, 180);
+    --border-color: #3da7f8;
+    --animation-time: 3s;
+    --text-shadow: 0 0 5px rgb(167, 2, 145), 0 0 10px rgb(94, 3, 59),
+        0 0 5px var(--text-color-neon), 0 0 10px var(--text-color-neon),
+        0 0 10px var(--text-color-neon), 0 0 10px var(--text-color-neon),
+        0 0 10px var(--text-color-neon), 0 0 20px var(--text-color-neon),
+        0 0 30px var(--text-color-neon), 0 0 40px var(--text-color-neon),
+        0 0 55px var(--text-color-neon), 0 0 75px var(--text-color-neon);
+}
+
+.neon {
+    background-color: transparent;
+    display: inline-block;
+    /* transform: rotate(-6deg); */
+    /* animation: turnOnBorder 0.24s forwards step-end,
+        flickerBorder calc(var(--animation-time) * 16) infinite step-end 8s; */
+
+    /* font-family: "Dancing Script", cursive; */
+    font-weight: bolder;
+}
+
+p {
+    color: rgb(251, 232, 255);
+}
+
+.neon span {
+    font-size: 3.5em;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+p span {
+    opacity: 0.33;
+    animation: turnOn forwards step-end;
+}
+
+p span:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+p span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+p span:nth-child(3) {
+    animation-delay: 0.1s;
+}
+
+p span:nth-last-child(1) {
+    animation: turnOn 3.4s forwards step-end,
+        flicker var(--animation-time) infinite step-end 2s;
+}
+
+
+@keyframes turnOn {
+    100% {
+        text-shadow: var(--text-shadow);
+        opacity: 1;
+    }
+}
+
+@keyframes flicker {
+    0% {
+        text-shadow: var(--text-shadow);
+    }
+
+    30% {
+        text-shadow: none;
+    }
+    33% {
+        text-shadow: var(--text-shadow);
+    }
+
+    35% {
+        text-shadow: none;
+    }
+    37% {
+        text-shadow: var(--text-shadow);
+    }
+
+    99% {
+        text-shadow: none;
+    }
+}
