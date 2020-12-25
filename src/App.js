@@ -4,11 +4,11 @@ import Home from "./Components/pages/Home/Home";
 import Preloader from "./Components/preloader";
 function App() {
     const [loading, setLoading] = useState(true);
-    const [movieName, setMovieName] = useState("silence");
+    const [movieName, setMovieName] = useState("dead poet society");
     const [seriesName, setSeriesName] = useState("Love Death + Robots");
     setTimeout(() => {
         setLoading(false);
-    }, 4000);
+    }, 3000);
 
     return (
         <>

@@ -1,6 +1,7 @@
 import React from "react";
 import Data from "../../Data/Data";
 import "./neon.css";
+import { v1 } from "uuid";
 function Header(props) {
     const { movieName, seriesName } = props;
 
@@ -18,7 +19,6 @@ function Header(props) {
     const seriesObj = Data.find((o) => o.name === "Series").movies.find(
         (item) => item.name === seriesName
     );
-
     return (
         <>
             <div className="week-movie-container">
@@ -28,19 +28,19 @@ function Header(props) {
                         <p>
                             <a href={dlLink} target="_blank" rel="noreferrer">
                                 {nameCharArr.map((item) => {
-                                    return <span key={item.index}>{item}</span>;
+                                    return <span key={v1()}>{item}</span>;
                                 })}
                             </a>
                         </p>
                     </div>
                     <h4>
-                        introduced by : 
+                        introduced by :
                         <span className="movie-owner">{ownerObj.name}</span>
                     </h4>
                     <h1> This Week Series 🎭</h1>
                     <a href={seriesObj.dlLink} target="_blank" rel="noreferrer">
                         <h2 className="series-name">
-                            (Love Death + Robots - S01 E02)
+                            (Love Death + Robots - S01 E03)
                         </h2>
                     </a>
                 </div>

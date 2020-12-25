@@ -32,7 +32,7 @@ function Home(props) {
                     <div className="app-container ">
                         <Header movieName={movieName} seriesName={seriesName} />
                         <div className="random-comp">
-                            <Random setMovieName={setMovieName} />
+                            <Random  />
                         </div>
 
                         <Table

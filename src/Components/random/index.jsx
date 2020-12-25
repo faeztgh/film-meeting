@@ -1,21 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./random.css";
 import Data from "../../Data/Data";
 import CircularProgress from "@material-ui/core/CircularProgress";
 function Random(props) {
-    const { setMovieName } = props;
     let movies = [];
 
-    const [chosenMovie, setChosenMovie] = React.useState("choose");
-    const [loading, setLoading] = React.useState(false);
+    const [chosenMovie, setChosenMovie] = useState("choose");
+    const [loading, setLoading] = useState(false);
 
     const makeMovieArray = () => {
         const tmp = [];
 
         const filteredData = Data.filter(
             (e) => e.name !== "Misagh" && e.name !== "Series"
-
-            //  && e.name !== "Vafa"
         );
         filteredData.map((data) => {
             return tmp.push(data.movies);
@@ -30,6 +27,7 @@ function Random(props) {
     };
 
     const choose = () => {
+        // makeMovieArray();
         let index = Math.round(Math.random() * (movies.length - 0) + 0);
         movies = movies.filter((e) => e !== "timbuktu");
 
@@ -45,11 +43,10 @@ function Random(props) {
             clearTimeout(timer);
         };
     };
-    
-   
+
     useEffect(() => {
         makeMovieArray();
-    }, []);
+    }, [choose]);
     return (
         <>
             <div className="random-container">
