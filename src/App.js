@@ -4,7 +4,7 @@ import Home from "./Components/pages/Home/Home";
 import Preloader from "./Components/preloader";
 function App() {
     const [loading, setLoading] = useState(true);
-    const [movieName, setMovieName] = useState("dead poet society");
+    const [movieName, setMovieName] = useState("the gardener");
     const [seriesName, setSeriesName] = useState("Love Death + Robots");
     setTimeout(() => {
         setLoading(false);

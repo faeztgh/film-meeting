@@ -29,7 +29,7 @@ function Random(props) {
     const choose = () => {
         // makeMovieArray();
         let index = Math.round(Math.random() * (movies.length - 0) + 0);
-        movies = movies.filter((e) => e !== "timbuktu");
+        
 
         setChosenMovie(movies[index]);
         handleLoading();

@@ -34,13 +34,13 @@ function Header(props) {
                         </p>
                     </div>
                     <h4>
-                        introduced by :
-                        <span className="movie-owner">{ownerObj.name}</span>
+                        introduced by : 
+                        <span className="movie-owner"> {ownerObj.name}</span>
                     </h4>
                     <h1> This Week Series 🎭</h1>
                     <a href={seriesObj.dlLink} target="_blank" rel="noreferrer">
                         <h2 className="series-name">
-                            (Love Death + Robots - S01 E03)
+                            (Love Death + Robots - S01 E05)
                         </h2>
                     </a>
                 </div>
