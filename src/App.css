@@ -11,10 +11,10 @@ a {
 }
 
 .series-name {
-    transition:all 0.5s;
+    transition: all 0.5s;
 }
 .series-name:hover {
     color: rgb(179, 230, 245);
     font-size: 1.7em;
-    transition:all .5s ease;
-} 
+    transition: all 0.5s ease;
+}

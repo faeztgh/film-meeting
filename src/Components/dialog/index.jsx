@@ -21,7 +21,7 @@ function MyDialog(props) {
         <>
             <div>
                 <Dialog
-                className={classes.root}
+                    className={classes.root}
                     open={open}
                     onClose={handleClose}
                     scroll={scroll}

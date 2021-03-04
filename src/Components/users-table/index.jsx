@@ -181,8 +181,6 @@ const useStyles = makeStyles((theme) => ({
         filter: "drop-shadow(2px 15px 15px rgb(17, 17, 17))",
         margin: "auto",
         position: "relative",
-
-       
     },
     tabs: {
         borderRight: `2px solid ${theme.palette.divider}`,

@@ -29,7 +29,6 @@ function Random(props) {
     const choose = () => {
         // makeMovieArray();
         let index = Math.round(Math.random() * (movies.length - 0) + 0);
-        
 
         setChosenMovie(movies[index]);
         handleLoading();

@@ -1,26 +1,20 @@
-import React, { useState } from "react";
+import React, { lazy, Suspense, useState } from "react";
 import "./App.css";
-import Home from "./Components/pages/Home/Home";
-import Preloader from "./Components/preloader";
+import Preloader from "./Components/preloader/Preloader";
+const Home = lazy(() => import("./Components/pages/Home/Home"));
 function App() {
-    const [loading, setLoading] = useState(true);
     const [movieName, setMovieName] = useState("the gardener");
     const [seriesName, setSeriesName] = useState("Love Death + Robots");
-    setTimeout(() => {
-        setLoading(false);
-    }, 3000);
 
     return (
         <>
-            {loading ? (
-                <Preloader open={loading} />
-            ) : (
+            <Suspense fallback={<Preloader />}>
                 <Home
                     movieName={movieName}
                     setMovieName={setMovieName}
                     seriesName={seriesName}
                 />
-            )}
+            </Suspense>
         </>
     );
 }

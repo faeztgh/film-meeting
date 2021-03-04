@@ -54,7 +54,6 @@ p span:nth-last-child(1) {
         flicker var(--animation-time) infinite step-end 2s;
 }
 
-
 @keyframes turnOn {
     100% {
         text-shadow: var(--text-shadow);

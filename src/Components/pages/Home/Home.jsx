@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import "./home.css";
 import { makeStyles } from "@material-ui/core/styles";
-import Random from "../../random";
-import Header from "../../header";
-import Table from "../../users-table";
+import { lazy } from "react";
+
+const Table = lazy(() => import("../../users-table"));
+const Quote = lazy(() => import("../../quote/Quote"));
+const Random = lazy(() => import("../../random"));
+const Header = lazy(() => import("../../header"));
+
 function Home(props) {
-    const { movieName, setMovieName, seriesName } = props;
+    const { movieName, seriesName } = props;
     const classes = useStyles();
     const [value, setValue] = useState(0);
     const [isMobile, setIsMobile] = useState(true);
@@ -32,9 +36,9 @@ function Home(props) {
                     <div className="app-container ">
                         <Header movieName={movieName} seriesName={seriesName} />
                         <div className="random-comp">
-                            <Random  />
+                            <Random />
                         </div>
-
+                        <Quote />
                         <Table
                             value={value}
                             handleChange={handleChange}

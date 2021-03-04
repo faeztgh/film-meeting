@@ -2,6 +2,7 @@ import React from "react";
 import Data from "../../Data/Data";
 import "./neon.css";
 import { v1 } from "uuid";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function Header(props) {
     const { movieName, seriesName } = props;
 
@@ -34,7 +35,7 @@ function Header(props) {
                         </p>
                     </div>
                     <h4>
-                        introduced by : 
+                        introduced by :
                         <span className="movie-owner"> {ownerObj.name}</span>
                     </h4>
                     <h1> This Week Series 🎭</h1>
@@ -45,8 +46,8 @@ function Header(props) {
                     </a>
                 </div>
                 <div className="week-movie-wrapper">
-                    <img loading="lazy" src={src} alt="" />
-                    <img loading="lazy" src={seriesObj.src} alt="" />
+                    <LazyLoadImage src={src} effect="blur" />
+                    <LazyLoadImage src={seriesObj.src} effect="blue" />
                 </div>
             </div>
         </>
