@@ -2,6 +2,7 @@
     "name": "random-movie",
     "version": "0.1.0",
     "private": true,
+    "proxy": "https://movie-quote-api.herokuapp.com",
     "homepage": "https://faeztgh.github.io/film-meeting",
     "dependencies": {
         "@material-ui/core": "^4.11.3",
@@ -10,6 +11,7 @@
         "@testing-library/jest-dom": "^5.11.5",
         "@testing-library/react": "^11.1.1",
         "@testing-library/user-event": "^12.2.0",
+        "axios": "^0.21.1",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-icons": "^3.11.0",
