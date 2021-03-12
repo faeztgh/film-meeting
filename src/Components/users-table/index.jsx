@@ -39,6 +39,7 @@ const Table = (props) => {
                 descriptionElement.focus();
             }
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [open]);
 
     return (

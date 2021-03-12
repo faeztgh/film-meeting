@@ -18,7 +18,7 @@ const Quote = () => {
     };
 
     const fetchGeneralQuote = () => {
-        const url = "/v1/";
+        const url = "https://movie-quote-api.herokuapp.com/v1/";
         axios
             .get(url)
             .then((res) => {

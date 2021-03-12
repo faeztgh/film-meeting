@@ -4,7 +4,7 @@ import Preloader from "./Components/preloader/Preloader";
 const Home = lazy(() => import("./Components/pages/Home/Home"));
 function App() {
     const [movieName, setMovieName] = useState("the gardener");
-    const [seriesName, setSeriesName] = useState("Love Death + Robots");
+    const seriesName = "Love Death + Robots";
 
     return (
         <>

@@ -47,7 +47,7 @@ function Header(props) {
                 </div>
                 <div className="week-movie-wrapper">
                     <LazyLoadImage src={src} effect="blur" />
-                    <LazyLoadImage src={seriesObj.src} effect="blue" />
+                    <LazyLoadImage src={seriesObj.src} effect="blur" />
                 </div>
             </div>
         </>
