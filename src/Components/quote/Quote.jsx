@@ -9,21 +9,24 @@ const Quote = () => {
     const classes = useStyles();
     const [quote, setQuote] = useState("");
     const [quoteRole, setQuoteRole] = useState("");
+    const [quoteShow, setQuoteShow] = useState("");
     const fetchBBQuote = async () => {
         const url = "https://breaking-bad-quotes.herokuapp.com/v1/quotes";
         let res = await fetch(url);
         res = await res.json();
         setQuote(res[0].quote);
         setQuoteRole(res[0].author);
+        setQuoteShow("Breaking Bad");
     };
 
     const fetchGeneralQuote = () => {
-        const url = "https://movie-quote-api.herokuapp.com/v1/";
+        const url = "https://movie-quote-api.herokuapp.com/v1/quote/";
         axios
             .get(url)
             .then((res) => {
                 setQuote(res.data.quote);
                 setQuoteRole(res.data.role);
+                setQuoteShow(res.data.show);
             })
             .catch((err) => {
                 console.log(err);
@@ -49,7 +52,13 @@ const Quote = () => {
             ) : (
                 <>
                     <q>{quote}</q>
-                    <p className={classes.author}>~ {quoteRole}</p>
+                    <div className={classes.wrapper}>
+                        <p className={classes.author}>~ {quoteRole}</p>
+                        <p> ⠀ </p>
+                        <p className={classes.show}>
+                            {quoteShow !== "" && "🎬" + quoteShow}
+                        </p>
+                    </div>
                 </>
             )}
         </Paper>
@@ -83,5 +92,17 @@ const useStyles = makeStyles((theme) => ({
     author: {
         fontSize: "1rem",
         fontWeight: "600",
+        color: "rgb(8, 143, 136)",
+    },
+
+    show: {
+        color: "rgb(27, 147, 202)",
+        fontSize: "1rem",
+        fontWeight: "600",
+    },
+
+    wrapper: {
+        display: "flex",
+        width: "100%",
     },
 }));
