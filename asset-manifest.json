@@ -1,12 +1,12 @@
 {
   "files": {
-    "static/js/0.520965ad.chunk.js": "/film-meeting/static/js/0.520965ad.chunk.js",
-    "static/js/0.520965ad.chunk.js.map": "/film-meeting/static/js/0.520965ad.chunk.js.map",
+    "static/js/0.4d7e011e.chunk.js": "/film-meeting/static/js/0.4d7e011e.chunk.js",
+    "static/js/0.4d7e011e.chunk.js.map": "/film-meeting/static/js/0.4d7e011e.chunk.js.map",
     "main.css": "/film-meeting/static/css/main.99218b91.chunk.css",
-    "main.js": "/film-meeting/static/js/main.2e8025c0.chunk.js",
-    "main.js.map": "/film-meeting/static/js/main.2e8025c0.chunk.js.map",
-    "runtime-main.js": "/film-meeting/static/js/runtime-main.f03876c2.js",
-    "runtime-main.js.map": "/film-meeting/static/js/runtime-main.f03876c2.js.map",
+    "main.js": "/film-meeting/static/js/main.7c5afc12.chunk.js",
+    "main.js.map": "/film-meeting/static/js/main.7c5afc12.chunk.js.map",
+    "runtime-main.js": "/film-meeting/static/js/runtime-main.9a03dd70.js",
+    "runtime-main.js.map": "/film-meeting/static/js/runtime-main.9a03dd70.js.map",
     "static/js/3.c332aeef.chunk.js": "/film-meeting/static/js/3.c332aeef.chunk.js",
     "static/js/3.c332aeef.chunk.js.map": "/film-meeting/static/js/3.c332aeef.chunk.js.map",
     "static/js/4.9b3082cb.chunk.js": "/film-meeting/static/js/4.9b3082cb.chunk.js",
@@ -22,8 +22,8 @@
     "static/js/8.cb7d1030.chunk.js": "/film-meeting/static/js/8.cb7d1030.chunk.js",
     "static/js/8.cb7d1030.chunk.js.map": "/film-meeting/static/js/8.cb7d1030.chunk.js.map",
     "static/css/9.613ffc47.chunk.css": "/film-meeting/static/css/9.613ffc47.chunk.css",
-    "static/js/9.f07b84d0.chunk.js": "/film-meeting/static/js/9.f07b84d0.chunk.js",
-    "static/js/9.f07b84d0.chunk.js.map": "/film-meeting/static/js/9.f07b84d0.chunk.js.map",
+    "static/js/9.8fec2d1c.chunk.js": "/film-meeting/static/js/9.8fec2d1c.chunk.js",
+    "static/js/9.8fec2d1c.chunk.js.map": "/film-meeting/static/js/9.8fec2d1c.chunk.js.map",
     "static/css/10.afd7172b.chunk.css": "/film-meeting/static/css/10.afd7172b.chunk.css",
     "static/js/10.1336cd2f.chunk.js": "/film-meeting/static/js/10.1336cd2f.chunk.js",
     "static/js/10.1336cd2f.chunk.js.map": "/film-meeting/static/js/10.1336cd2f.chunk.js.map",
@@ -45,9 +45,9 @@
     "static/media/1.eb448156.gif": "/film-meeting/static/media/1.eb448156.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f03876c2.js",
+    "static/js/runtime-main.9a03dd70.js",
     "static/js/6.300f84ff.chunk.js",
     "static/css/main.99218b91.chunk.css",
-    "static/js/main.2e8025c0.chunk.js"
+    "static/js/main.7c5afc12.chunk.js"
   ]
 }
